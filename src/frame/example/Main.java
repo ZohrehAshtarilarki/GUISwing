@@ -12,7 +12,7 @@ public class Main {
 
         // JLabel = a GUI display area for a string of text, an image, or both. Label is a component for a frame
 
-        ImageIcon image = new ImageIcon("/Users/zohrehashtarilarki/Desktop/My Codes(49J)/GUI/GUI/logo.png");
+        ImageIcon image = new ImageIcon("logo.png");
         Border border = BorderFactory.createLineBorder(Color.red,3);
 
         JLabel label = new JLabel(); //create a label
@@ -38,6 +38,6 @@ public class Main {
         frame.setLayout(null); //set the label in the defined bounds;otherwise, set it on the entire frame
         frame.setVisible(true);
         frame.add(label);
-        //frame.pack();
+        frame.pack();
     }
 }
