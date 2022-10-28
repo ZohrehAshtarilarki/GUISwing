@@ -37,7 +37,7 @@ public class Main {
         frame.setIconImage(image.getImage());
         frame.setLayout(null); //set the label in the defined bounds;otherwise, set it on the entire frame
         frame.setVisible(true);
-        frame.add(label);
-        //frame.pack();
+        //frame.add(label);
+        frame.pack();
     }
 }
