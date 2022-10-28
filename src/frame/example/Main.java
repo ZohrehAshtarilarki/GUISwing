@@ -35,9 +35,9 @@ public class Main {
         frame.setSize(500, 500);
         frame.setTitle("JFrame title goes here");
         frame.setIconImage(image.getImage());
-        //frame.setLayout(null); //set the label in the defined bounds;otherwise, set it on the entire frame
+        frame.setLayout(null); //set the label in the defined bounds;otherwise, set it on the entire frame
         frame.setVisible(true);
-        //frame.add(label); first commit
-        frame.pack();
+        frame.add(label);
+        //frame.pack();
     }
 }
